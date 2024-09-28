@@ -23,11 +23,14 @@ git clone https://github.com/gabrielgonta/OnlineFlightTicketBooking.git
 ### Configure the Database :
 
 Create a new database in phpMyAdmin called ```ofbms_db```.
+
 Import the ```flight_booking.sql``` file into this newly created ofbms_db database to create the necessary tables.
+
 Update the database connection settings in ```config.php``` (or wherever the database connection is set up).
 
 ### Set Up the Server :
 Place the project files in your web server's root directory (e.g., ```/var/www/html/``` for Apache).
+
 Start your local server (e.g., Apache with <b>XAMPP</b> or <b>MAMP</b>).
 
 ### Configure Payment Gateway:
@@ -42,24 +45,24 @@ You can now access the flight booking system via this address: http://localhost/
 ## Admin Access
 To access the admin panel, use the following credentials:
 
-Username: ```admin```
+Username: ```admin```</br>
 Password: ```admin```
 
 The admin panel allows you to manage flights, bookings, and users.
 
 ## Usage
 
-Register : New users can create an account on the registration page.
+Register : New users can create an account on the registration page.</br>
 
-Login : Access the flight booking system by logging in with your credentials.
+Login : Access the flight booking system by logging in with your credentials.</br>
 
-Book a Flight : Search for available flights, select one, enter passenger details, and complete the booking by making a payment.
+Book a Flight : Search for available flights, select one, enter passenger details, and complete the booking by making a payment.</br>
 
-View Bookings : After booking, users can view their flight history and download e-tickets.
+View Bookings : After booking, users can view their flight history and download e-tickets.</br>
 
-Submit Feedback : After completing a trip, users can submit feedback about their experience.
+Submit Feedback : After completing a trip, users can submit feedback about their experience.</br>
 
-Admin Panel : Admins can log in with the credentials mentioned above to manage the system.
+Admin Panel : Admins can log in with the credentials mentioned above to manage the system.</br>
 
 ## How I try to stand out
 
@@ -76,16 +79,43 @@ Admin Panel : Admins can log in with the credentials mentioned above to manage t
 Here’s a brief overview of the key files in the project:
 
 File	Description
-```index.php```	: Homepage for flight search and general information.
-```register.php``` : User registration page.
-```login.php```	: Login page for accessing the system.
-```book_flight.php``` : Page for selecting flights and entering passenger details.
-```payment.php```	: Handles payment processing through the integrated gateway.
-```e_ticket.php``` : Generates and provides a downloadable e-ticket.
-```my_flights.php``` : Displays the user’s booking history.
-```feedback.php``` : Allows users to submit feedback after their journey.
-```reset-pwd.php```	: Page to reset the user's password.
-```admin.php```	: Admin panel for managing flights, users, and bookings.
+```index.php```	: Homepage for flight search and general information.</br>
+```register.php``` : User registration page.</br>
+```login.php```	: Login page for accessing the system.</br>
+```book_flight.php``` : Page for selecting flights and entering passenger details.</br>
+```payment.php```	: Handles payment processing through the integrated gateway.</br>
+```e_ticket.php``` : Generates and provides a downloadable e-ticket.</br>
+```my_flights.php``` : Displays the user’s booking history.</br>
+```feedback.php``` : Allows users to submit feedback after their journey.</br>
+```reset-pwd.php```	: Page to reset the user's password.</br>
+```admin.php```	: Admin panel for managing flights, users, and bookings.</br>
+
+## Page Preview
+
+### Main Vue
+
+![](https://github.com/gabrielgonta/OnlineFlightTicketBooking/blob/main/assets/github/main_vue.png)
+
+### Admin Vue
+
+![](https://github.com/gabrielgonta/OnlineFlightTicketBooking/blob/main/assets/github/admin_vue.png)
+
+### Flight Ticket
+
+![](https://github.com/gabrielgonta/OnlineFlightTicketBooking/blob/main/assets/github/flight_ticket.png)
+
+### Flight Status
+
+![](https://github.com/gabrielgonta/OnlineFlightTicketBooking/blob/main/assets/github/flight_status.png)
+
+### Flight(s)
+
+![](https://github.com/gabrielgonta/OnlineFlightTicketBooking/blob/main/assets/github/flights.png)
+
+### Feedback Page
+
+![](https://github.com/gabrielgonta/OnlineFlightTicketBooking/blob/main/assets/github/feedback.png)
+
 
 ## Technologies Used
 
