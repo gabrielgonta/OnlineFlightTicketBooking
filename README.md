@@ -78,7 +78,7 @@ Admin Panel : Admins can log in with the credentials mentioned above to manage t
 
 Here’s a brief overview of the key files in the project:
 
-File	Description
+File	Description</br></br>
 ```index.php```	: Homepage for flight search and general information.</br>
 ```register.php``` : User registration page.</br>
 ```login.php```	: Login page for accessing the system.</br>
